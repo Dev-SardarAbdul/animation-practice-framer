@@ -1,3 +1,4 @@
+import HoverEffect from "./hoverEffect";
 import Reveal from "./reveal";
 
 function App() {
@@ -30,6 +31,9 @@ function App() {
         <Reveal>
           <div className="card">hello from card</div>{" "}
         </Reveal>
+      </div>
+      <div className="wrapper">
+        <HoverEffect />
       </div>
     </>
   );
